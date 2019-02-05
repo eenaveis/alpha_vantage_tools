@@ -1,0 +1,3 @@
+.env
+__pycache__/
+alpha_vantage_tools.egg-info/
