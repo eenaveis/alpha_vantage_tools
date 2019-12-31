@@ -1,17 +1,18 @@
 from setuptools import setup
 
-setup(name = 'alpha_vantage_tools',
-      version = '0.1.0',
-      description = 'Tools for gathering and storing stock price data from the Alpha Vantage API',
+setup(name = "alpha-vantage-tools",
+      version = "0.2.0",
+      description = "Alpha Vantage API wrapper with integrated SQLite interface for easy data ingestion.",
       classifiers = [
-      	'Development Status :: 3 - Alpha',
-      	'Programming Language :: Python 3.6',
-      	'License :: MIT',
-      	'Topic :: Data Importing :: Database API'
+      	"Development Status :: 3 - Alpha",
+      	"Programming Language :: Python 3.6",
+      	"License :: MIT",
+      	"Topic :: Data Ingestion :: Financial Data"
       ],
-      keywords = 'alpha vantage, stocks',
-      url = 'http://github.com/eenaveis/alpha_vantage_tools',
-      author = 'Emil Sievänen',
-      license = 'MIT',
-      packages = ['alpha_vantage_tools'],
+      keywords = "alpha vantage, stock markets, database",
+      url = "http://github.com/eenaveis/alpha_vantage_tools",
+      author = "Emil Sievänen",
+      license = "MIT",
+      packages = ["alpha_vantage_tools"],
+      install_requires = ["python-dotenv"],
       zip_safe = False)
